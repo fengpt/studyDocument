@@ -1,0 +1,3 @@
+url=contextPath+'/generic/web/viewer.html?file='+encodeURIComponent(url)+"&t="+new Date();
+									
+<div > <iframe id='iframe' src='"+url+"' width='"+w+"' height='"+h+"' scrolling='scrolling' /><div>";

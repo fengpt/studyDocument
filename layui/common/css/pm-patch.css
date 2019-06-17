@@ -1,0 +1,74 @@
+.error-score {
+  border: 1px solid #ff5722 !important
+}
+
+.add-on {
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #ccc;
+
+}
+
+.pm-title-2 {
+  color: #999;
+  font-size: 14px;
+}
+.pm-col-name{
+width:120px;
+word-break:break-all;
+white-space:normal;
+padding-right: 3px;
+padding-left: 3px;
+line-height: 1.5;
+}	
+.div-info {
+  text-align: center;
+  background: #ffffd9;
+  padding: 8px;
+  color: #ffb647;
+  margin-bottom: 10px;
+}
+/* 成绩分布-饼图 */
+.highcharts-legend-item > span {
+  margin-left: 5px !important;
+  color: #333 !important;
+}
+
+/* 表格居中对齐 */
+.layui-table-centered,
+.layui-table-centered thead th {
+  text-align: center;
+}
+
+/* checkbox disable */
+.layui-form-checkbox[lay-skin=primary].layui-disabled i {
+  background: #eee;
+  border-color: #d2d2d2;
+}
+
+#patch-allscore {
+	position: relative;
+	width: 100%;
+	overflow-x: auto;
+}
+#patch-allscore table th,
+#patch-allscore table td {
+  white-space: nowrap;
+}
+.patch-detail-th {
+  position: relative;
+}
+.patch-detail-th .pm-tooltip-menu {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  z-index: 9;
+}
+.patch-legend {
+  position: absolute;
+  top: 8px;
+  left: 100px;
+  white-space: nowrap;
+  font-size: 12px;
+  line-height: 17px;
+}

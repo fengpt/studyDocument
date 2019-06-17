@@ -1,0 +1,86 @@
+key:function(){
+			
+			jQuery("input").eq(0).focus();
+			jQuery("input[type='text']").keydown(function(){
+				alert("jhjkjk");
+				var key=event.keyCode;
+				switch(key){
+				case 37:{
+					if($(this).parent().prev().length>=1){
+						$(this).parent().prev().find("input").focus();
+					}
+					break;
+				}
+				case 38:{
+					if($(this).parent().parent().prev().length>=1){
+						$(this).parent().parent().prev().children().children().eq($(this).parent().prevAll().length).focus();
+					}
+					break;
+				}
+				case 39:{
+					if($(this).parent().next().length>=1){
+						$(this).parent().next().find("input").focus();
+					}
+					break;
+				}
+				case 40:{
+					if($(this).parent().parent().next().length>=1){
+						$(this).parent().parent().next().children().children().eq($(this).parent().prevAll().length).focus();
+					}
+					break;
+				}
+				case 13:{
+					event.keyCode=9;
+					break;
+				}
+				default:{
+					break;
+				 }
+				};
+			});
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//			//大标题第一
+//			row = sheet.createRow(currentRow++);
+//			cteateCell(wb,blankstyle,row,(short)0,HSSFCellStyle.ALIGN_CENTER,schoolmap.get("schoolName")+"学生过程性评价成绩表");
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow-1, 0, 14));
+//			//第二
+//			row = sheet.createRow(currentRow++);
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_LEFT,"姓名："+studentmap.get("names")+" 年级："+levelname+student.getGradename()+" 学期："+"");
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow-1, 0, 14));
+//			//第三
+//			row = sheet.createRow(currentRow++);
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow, 0, 0));
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow, 14, 14));
+//			cteateCell(wb,cellstyle,row,(short)(colNumber+13),HSSFCellStyle.ALIGN_CENTER,"学期总评");
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow-1, 1, 7));
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"期中");
+//			sheet.addMergedRegion(new CellRangeAddress(currentRow-1, currentRow-1, 8, 13));
+//			cteateCell(wb,cellstyle,row,(short)(colNumber+6),HSSFCellStyle.ALIGN_CENTER,"期末");
+//			row = sheet.createRow(currentRow++);
+//			colNumber=1;
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"作业质量");
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"上课考勤");
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"课堂表现");
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"平时考试");
+//			row = sheet.createRow(currentRow++);
+//			colNumber=0;
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"语文");
+//			row = sheet.createRow(currentRow++);
+//			colNumber=0;
+//			cteateCell(wb,cellstyle,row,(short)colNumber++,HSSFCellStyle.ALIGN_CENTER,"数学");
+	

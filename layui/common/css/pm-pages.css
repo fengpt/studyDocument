@@ -1,0 +1,424 @@
+.pm-layer .layui-layer-btn {
+  min-width: 60px;
+}
+.pm-layer .layui-layer-btn .layui-layer-btn0 {
+  background: #094;
+  border-color: #094;
+}
+.layui-form-item .layui-form-label {
+  height: 32px;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.layui-form-item .layui-form-labellong {
+  height: 32px;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.layui-form-item .layui-form-labelshort {
+  height: 32px;
+  line-height: 32px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.layui-form-labellong {
+    float: left;
+    display: block;
+    padding: 9px 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    width: 80px;
+    font-weight: 400;
+    text-align: right;
+}
+.layui-form-labelshort {
+    float: left;
+    display: block;
+    padding: 9px 15px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+    width: 80px;
+    font-weight: 400;
+    text-align: right;
+}
+.layui-table-simple {
+  background: #fbfdff;
+}
+.layui-table-simple thead tr {
+  background: #fff;
+  background: transparent;
+  border-bottom: 1px solid #eee;
+}
+.layui-table-centered th,
+.layui-table-centered td {
+  text-align: center;
+}
+.layui-elem-field {
+  border-radius: 4px;
+}
+.layui-table tbody > tr:hover {
+  background: #e7f5ee;
+}
+.pm-row-collapse {
+  background: #fbfdff;
+}
+.pm-row-collapse:hover {
+  background: transparent !important;
+}
+.pm-row-collapse .layui-table {
+  background: #fbfdff;
+  color: #666;
+}
+.pm-row-collapse .layui-table td:first-child {
+  color: #999;
+}
+.layui-table .layui-btn {
+  min-width: 60px;
+}
+.layui-tab-title li {
+  padding: 0 20px;
+}
+.layui-flow-more a {
+  display: block;
+  background: #fff;
+  padding: 5px 0;
+  border-radius: 4px;
+}
+.layui-flow-more a cite {
+  background: #fff;
+}
+.layui-flow-more a:hover cite {
+  color: #094;
+}
+.layui-table-parent .layui-table thead tr {
+  background: #fbfdff;
+  background: transparent;
+  border-bottom: 1px solid #eee;
+}
+.layui-table-parent .layui-table td,
+.layui-table-parent .layui-table th {
+  padding: 8px 15px;
+}
+.layui-input {
+  height: 32px;
+  line-height: 32px;
+}
+.layui-btn-group .layui-btn-primary:hover,
+.layui-btn-primary:hover {
+  color: #094;
+  border-color: #094;
+}
+.layui-btn {
+  transition: all 0.3s;
+}
+.layui-btn:hover .pm-icon-down {
+  background-image: url("../img/icon/icon-radius-down-green.png");
+}
+.layui-btn.active {
+  background: #094;
+}
+.layui-btn.opened:hover .pm-icon-down {
+  background-image: url("../img/icon/icon-radius-up-green.png");
+}
+.layui-btn.opened .pm-icon-down {
+  background-image: url("../img/icon/icon-radius-up.png");
+}
+.layui-btn .pm-icon {
+  margin-left: 3px;
+  top: -1px;
+}
+.pm-tab-detail .layui-tab-content {
+  padding: 10px 0;
+}
+.pm-btn-group-filter {
+  text-align: center;
+  padding-top: 20px;
+}
+.pm-btn-group-filter .layui-btn-group .layui-btn {
+  padding: 0 20px;
+}
+.pm-btn-group-filter .layui-btn-group .layui-btn.active {
+  background: #094;
+  color: #fff;
+  border-color: #094;
+}
+.pm-form-text {
+  padding: 6px;
+}
+.pm-main-setting .layui-form {
+  min-height: 500px;
+}
+.pm-setting-wrap > .pm-navitem {
+  display: inline-block;
+  border: 1px solid #eee;
+  margin: 0 5px;
+  padding: 15px 20px;
+  pointer-events: none;
+  user-select: none;
+  border-radius: 2px;
+}
+.pm-setting-radios {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+.pm-tooltip-pjx .pm-tooltip-content {
+  left: -60px;
+}
+.pm-tooltip-pjx .pm-tooltip-content:after {
+  left: 60px;
+}
+.pm-tooltip .pm-icon-question + .pm-text {
+  font-size: 12px;
+  font-weight: normal;
+}
+.pm-tooltip-hsbl .pm-tooltip-content {
+  left: -180px;
+}
+.pm-tooltip-hsbl .pm-tooltip-content:after {
+  left: 57%;
+}
+/* 2017-08-08 @xfl */
+#js-dialog .pm-tooltip-content {
+  font-weight: normal;
+}
+.pm-timeline-box {
+  padding-left: 40px;
+  position: relative;
+}
+.pm-timeline-box:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 2px;
+  background: #eff1f3;
+  z-index: 1;
+  left: 13px;
+  top: -10px;
+  bottom: 0;
+  border-radius: 2px;
+}
+.pm-log-box {
+  position: relative;
+  z-index: 99;
+}
+.pm-log-date {
+  position: relative;
+  margin: 10px 0;
+  color: #999;
+}
+.pm-log-date:after {
+  content: '';
+  position: absolute;
+  left: -38px;
+  top: -2px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("../img/icon/icon-timeline.png") #fff no-repeat center;
+  z-index: 99;
+}
+.pm-log-item {
+  position: relative;
+  padding: 10px;
+  border: 1px solid #eee;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #666;
+}
+.pm-log-item + .pm-log-item {
+  border-top: 0;
+}
+.pm-log-item:hover {
+  background: #e7f5ee;
+}
+.pm-log-item:first-child {
+  border-radius: 4px 4px 0 0;
+}
+.pm-log-item:last-child {
+  border-radius: 0 0 4px 4px;
+}
+.pm-log-item .pm-text {
+  float: right;
+  color: #999;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.pm-sidebar-classAll {
+  top: 41px;
+  width: 290px;
+  overflow: auto;
+}
+.pm-main-classAll {
+  margin-left: 310px;
+  min-height: 90%;
+}
+.pm-tab-classAll {
+  margin-top: 0;
+}
+.pm-option-classAll {
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  top: 80px;
+  overflow: auto;
+}
+.pm-option-classAll .pm-option-item {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  line-height: 1;
+  color: #666;
+  transition: all 0.3s;
+}
+.pm-option-classAll .pm-option-item.pm-item-middle {
+	line-height: 60px;
+}
+.pm-option-classAll .pm-option-item:hover {
+  color: #094;
+  background: #e7f5ee;
+}
+.pm-option-classAll .pm-option-item.active {
+  color: #094;
+  background: #e7f5ee;
+  border-bottom: 1px solid #e7f5ee;
+}
+.pm-option-classAll .pm-option-item.active:after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../img/icon/icon-select-lg.png") no-repeat center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.pm-option-classAll .pm-option-item.first {
+  border-top: 1px solid #eee;
+}
+.pm-option-classAll .pm-option-item .pm-col {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pm-option-classAll .pm-option-item .pm-col1 {
+  width: 60px;
+}
+.pm-option-classAll .pm-option-item .pm-col2 {
+  width: 100px;
+}
+.pm-option-classAll .pm-option-item .pm-col2 .pm-score {
+  display: inline-block;
+  width: 100px;
+  overflow: hidden;
+  line-height: 1.5;
+  border-radius: 4px;
+  border: 1px solid #094;
+  background: #D0ECDD;
+}
+.pm-option-classAll .pm-option-item.first .pm-col2 .pm-score {
+/*   background: #19be6b;
+  color: #fff; */
+}
+.pm-option-classAll .pm-option-item .pm-col3 {
+  color: inherit;
+}
+.pm-option-head {
+  min-height: 40px;
+  padding: 10px;
+  position:relative;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #333;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.1);
+}
+.pm-option-head .pm-subject {
+  font-size: 18px;
+  color: #094;
+}
+.pm-option-head .pm-half {
+  float: left;
+  padding: 0;
+}
+.pm-option-head .pm-half-first {
+  text-align: center;
+  white-space: normal;
+  width: 120px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.pm-option-head .pm-half-2nd {
+  line-height: 1;
+  margin-left: 120px;
+  padding-left: 5px;
+}
+.pm-option-head .pm-half-2nd .pm-text {
+  margin-top: 5px;
+  color: #999;
+  white-space:normal;
+  line-height:18px;
+}
+.pm-block-setting .layui-form-item {
+  margin-top: 5px;
+}
+.pm-block-setting .layui-inline {
+  margin: 0;
+}
+.pm-block-setting .layui-inline .layui-form-label {
+  width: 60px;
+}
+.pm-block-setting .layui-inline .layui-form-labellong {
+  width: 125px;
+}
+.pm-block-setting .layui-inline .layui-form-labelshort {
+  width: 10px;
+}
+.pm-block-setting .layui-inline .pm-input-totalscore {
+  margin-left: 10px;
+  width: 80px;
+}
+.pm-block-setting .layui-inline .layui-input-inline {
+  width: auto;
+}
+
+.pm-chart-desc {
+	position: absolute;
+  right: 40px;
+  top: 60px;
+  width: 300px;
+}
+.pm-chart-desc .pm-item {
+	float: left;
+	width: 50%;
+	height: 75px;
+  text-align: center;
+  border: 0 solid #eee;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.pm-chart-desc .pm-item .pm-title {
+	font-size: 28px;
+	color: #666;
+}
+.pm-chart-desc .pm-item .pm-subtitle {
+	color: #999;
+}
+#excellentRate,
+#passRate {
+  margin-top: 10px;
+}
