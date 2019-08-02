@@ -61,3 +61,13 @@ java -jar -Dspring.profiles.active=test ${jar_name} &
 
 #将进程ID存入到shaw-web.pid文件中
 echo $! >/opt/jenkins/shaw-test-web.pid
+
+
+
+
+
+
+
+
+
+https://www.ymq.io/2017/07/19/git/
